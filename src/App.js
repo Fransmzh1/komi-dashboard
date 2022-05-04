@@ -1,15 +1,16 @@
 import './App.css';
 import Sidebar from './components/Sidebar';
 import Topbar from './components/Topbar';
-import { Box, Container } from '@mui/material';
+import { Container } from '@mui/material';
 
 function App() {
   return (
     <div>
-        <Topbar /> 
-        <Container>
-          <Sidebar />
-        </Container> 
+        <Topbar pageTitle='Hal' /> 
+        <Topbar pageTitle='Hei' /> 
+        {/* <Container> */}
+          {/* <Sidebar /> */}
+        {/* </Container>  */}
     </div>
   );
 }
