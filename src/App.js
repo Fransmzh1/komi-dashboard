@@ -1,17 +1,16 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
-import Navbar from './components/Navbar';
+import Sidebar from './components/Sidebar';
+import Topbar from './components/Topbar';
+import { Box, Container } from '@mui/material';
 
 function App() {
   return (
-    <>
-      <BrowserRouter>
-        <Navbar />
-        <Routes>
-          <Route path='/' />
-        </Routes>
-      </BrowserRouter>
-    </>
+    <div>
+        <Topbar /> 
+        <Container>
+          <Sidebar />
+        </Container> 
+    </div>
   );
 }
 
