@@ -10,7 +10,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 function Topbar( {pageTitle} ) {
   return (
   <Box sx={{ flexGrow: 1 }}>
-    <AppBar position="static">
+    <AppBar position="static" >
       <Toolbar>
         <IconButton
           size="large"
@@ -24,7 +24,7 @@ function Topbar( {pageTitle} ) {
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
           {pageTitle}
         </Typography>
-        <Button color="inherit">Login</Button>
+        <Button color="inherit">Topbar</Button>
         
       </Toolbar>
     </AppBar>

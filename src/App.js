@@ -5,13 +5,14 @@ import { Container } from '@mui/material';
 
 function App() {
   return (
-    <div>
-        <Topbar pageTitle='Hal' /> 
-        <Topbar pageTitle='Hei' /> 
-        {/* <Container> */}
-          {/* <Sidebar /> */}
-        {/* </Container>  */}
+    <>
+    <div id='satu' >
+      <Topbar />
     </div>
+    <div id='dua'>
+      <Sidebar />
+    </div>
+    </>
   );
 }
 
