@@ -96,7 +96,7 @@ export default function PersistentDrawerLeft() {
           </Typography>
         </Toolbar> 
       </AppBar>
-      {/* <Drawer
+      <Drawer
         sx={{
           width: drawerWidth,
           flexShrink: 0,
@@ -136,7 +136,7 @@ export default function PersistentDrawerLeft() {
             </ListItem>
           ))}
         </List>
-      </Drawer> */}
+      </Drawer> 
       {/* <Main open={open}>
         <DrawerHeader />
         <Typography paragraph>
