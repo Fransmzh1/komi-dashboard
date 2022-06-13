@@ -1,17 +1,16 @@
 import './App.css';
-import Sidebar from './components/Sidebar';
+import Example from './tests/sx';
 import Topbar from './components/Topbar';
+import Sidebar from './components/Sidebar';
 import { Container } from '@mui/material';
+import { Component } from 'react';
+import KomiStatus from './pages/KomiStatus';
 
 function App() {
   return (
     <>
-    <div id='satu' >
       <Topbar />
-    </div>
-    <div id='dua'>
-      <Sidebar />
-    </div>
+      <KomiStatus />
     </>
   );
 }
